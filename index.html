@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BASIC BOARD</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse bg-dark">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Basic Board</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#">Projects</a></li> -->
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"
+                ><span class="glyphicon glyphicon-log-in"></span> Login</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid text-center main-section">
+      <h4 class="quote-header" id="home" >QUOTE OF THE DAY...</h4>
+      <div class="quote-box">
+        <div class="text-light">
+          <p id="quote">"Quote goes here..."</p>
+          <small id="author">- Author</small>
+        </div>
+        <button class="btn quote-btn">New Quote</button>
+      </div>
+      <div class="container tools-section">
+        <h1>Tools</h1>
+        <hr />
+        <div class="tools-cardWrapper">
+          <div class="tools-cardItem">
+            <div class="tools-box">Expense</div>
+            <p class="tools-description">
+              Something spent to attain goal or accomplish a purpose: an expense
+              of time and energy on the project.
+              Click here to open  
+                  <a target="blank" href="https://00develops.github.io/expense-tracker/">EXPENSE</a> app.
+            </p>
+          </div>
+          <div class="tools-cardItem">
+            <div class="tools-box">To-do</div>
+            <p class="tools-description">
+              used with other verbs to form questions and negative sentences,
+              also in short answers and short questions at the end of a sentence. Click here to open <a target="blank" href="https://00develops.github.io/to_do/">TO-DO</a> app.
+            </p>
+          </div>
+        </div>
+        <div class="tools-cardWrapper">
+          <div class="tools-cardItem">
+            <div class="tools-box">Calculator</div>
+            <p class="tools-description">
+              A calculator is a device that performs arithmetic operations on
+              numbers like addition, subtraction,
+              multiplication and division. Click here to open <a target="blank" href="https://00develops.github.io/basic_calculator/">CALCULATOR</a> app.
+            </p>
+          </div>
+
+          <div class="tools-cardItem">
+            <div class="tools-box">Game</div>
+              <p class="tools-description">an activity that you do to have fun. Click here to open <a target="blank" href="https://00develops.github.io/tic-tac-toe/">GAME</a> app.</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div class="about" id="about">
+        <div class="about-section">
+          <h1>About Us</h1>
+          <p>At this website, we are dedicated to providing innovative solutions in the field of computer science and design. Our team of experts, led by the students of Computer Science and Design department of 2nd Year, combines years of experience with a passion for technology to bring you the best possible products and services.
+
+              Our mission is to help individuals and businesses alike harness the power of technology to improve their operations and enhance their online presence. Whether you need a new website, a custom software solution, or any other IT-related services, we have the skills and expertise to deliver.
+              
+              We believe in the power of collaboration and always strive to build lasting partnerships with our clients. Our approach is centered around understanding your unique needs and providing customized solutions that meet your specific requirements.
+              
+              At this website, we are committed to delivering excellence in everything we do. Our team is passionate about what they do and always strives to stay at the forefront of the industry. So if you're looking for a reliable, innovative, and client-focused partner in the world of computer science and design, look no further than this website. "</p>
+        </div>
+
+        <h2 style="text-align: center;">Our Team</h2>
+        <div class="ourTeam">
+          <div class="ourTeam-member" id='contact'>
+              <div class="member-image">
+                <img
+                  src="https://www.w3schools.com/howto/img_avatar.png"
+                  alt="Taniska"
+                  style="width: 100%;"
+                />
+              </div>
+              <div class="member-description">
+                <h2>Taniska</h2>
+                <p class="title">Member</p>
+                <p>2Nd year student (CSD) , IMSEC</p>
+
+                <p><button class="btn">Contact</button></p>
+              </div>
+          </div>
+          <div class="ourTeam-member">
+              <div class="member-image">
+                <img
+                  src="https://www.w3schools.com/howto/img_avatar.png"
+                  alt="Shivam"
+                  style="width: 100%;"
+                />
+              </div>
+              <div class="member-description">
+                <h2>Shivam</h2>
+                <p class="title">Leader</p>
+                <p>2Nd year student (CSD) , IMSEC</p>
+
+                <a href="https://www.linkedin.com/in/shivam-yadav-b5b113228/"><button class="btn">Contact</button></a>
+              </div>
+          </div>
+          <div class="ourTeam-member">
+              <div class="member-image">
+                <img
+                  src="https://www.w3schools.com/howto/img_avatar.png"
+                  alt="Yash"
+                  style="width: 100%;"
+                />
+              </div>
+              <div class="member-description">
+                <h2>Yash</h2>
+                <p class="title">Member</p>
+                <p>2Nd year student (CSD) , IMSEC</p>
+
+                <p><button class="btn">Contact</button></p>
+              </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class=" text-center text-lg-start ">
+        <div class="text-center p-3" ">
+          © 2023 Copyright:
+          <a class="text-dark" href="https://github.com/00develops">ShivamProduction</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
